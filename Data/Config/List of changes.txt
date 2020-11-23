@@ -1,0 +1,94 @@
+
+
+
+Desolation mod:
+- Require 25% more XP to level. <(Progression)>
+- Living Off The Land only unlocks seed crafting and makes farm plots cheaper to craft. <(Progression)>
+- You can craft Snowberry seeds (without perk), can be planted on most ground types. Yields 2 berries per harvest. <(Recipe/Block)>
+- Lowered ranks of Salvage Operations, Miner 69'er, Motherlode, and Pack Mule to 4 ranks. Huntsman to 2 ranks. <(Progression)>
+- Removed XP penalty when increasing ranks in salvage operations, motherlode and buffs that increase yield. <(Progression)>
+- Adjusted Salvage Operations, increased attack speed and lowered stamina drain. <(Progression)>
+- Renamed Charismatic Nature to Survival Instinct, affects only perked character now. <(Progression)>
+- Removed Hackers Candy. (Harvesting an engine and getting 2 engines made no sense). <(Trader)>
+- Increased wild zombie spawns. Twice the spawns, Triple the respawn rate. <(Spawning)>
+- Zombies give 25% less XP. <(EntityClasses)>
+- Animals give ~60%-75% less resources. <(EntityClasses)>
+- You now start with Mineral Water, Steak & Potato, Firstaid Bandage, Painkiller, Herbal Antibiotics and a Flashlight. <(EntityClasses)>
+- Dying gives a 40% XP debt and you retain your food level. Gamestage lowers by 5 instead of 2. <(EntityClasses/Gamestage)>
+- You retain all debuffs when dying, including infection. Dying from infection will cure you of infection. <(Buff)>
+- Very hungry and starving has a penalty to stamina regen and movement speed, starving also reduces attributes by one. <(Buff)>
+- Stages of hunger and thirst now increase at 60%, 30% and 10%.
+- Survival Instinct passive affects balanced for single character. <(Buffs)>
+- Traders sell price 500%, buy price 10%. Vending machines 150%. <(Trader)>
+- Traders no longer sell Tier 3 weapons, tools and armour. <(Trader)>
+- Traders sell 40-60% less quantity of materials and other items normally sold in bulk. <(Trader)>
+- Barter items: Cigar, SugarButts and Awesome Sauce give half their bonus. <()>
+- Traders restock every 7 days instead of 3. Vending machines restock every 7 days. <(Trader)>
+- Vending machines hold more items to compensate restock frequency. <(Trader)>
+- Traders open an hour earlier. <(Trader)>   *NEW*
+- Harvesting and salvaging gives 60%-75% less resources. <(Blocks)>
+- Mining ores resources reduced by 68%, trees by 60%. <(Blocks)>
+- Hitting a loose stone gives you 2 stones instead of 1. <(Blocks)>
+- Trees take 50% longer and crops take twice as long to grow. <(Blocks)>
+- Upgrading blocks cost 20% more. <(Blocks)>
+- Increased prices for electrical traps. <(Blocks)>
+- Reduced chance to harvest engines and batteries. <(Blocks)>
+- Spike traps are cheaper to craft, repair and upgrade. <(Blocks)>
+- Rebalanced resources from salvaging safes. <(Blocks)>
+- Sandbags now give 12 sand instead of 2. <(Blocks)>
+- Surface boulders give mining resources. <(Blocks)>   *NEW*
+- 67% less ammo in loot. <(Loot)>
+- 60%-75% less quantity in loot. <(Loot)>
+- Quest reward ammo and explosives reduced by 40%. <(Loot)>
+- 20% less chance of eggs in nests. <(Loot)>
+- Removed boiled water and fresh food from loot, 5% chance of dysentery from boiled water. <(Loot/Items)>
+- Food piles less likely to give drinks. <(Loot)>
+- Less medical items in loot, rare even rarer. <(Loot)>
+- Common recipes cost more (Usually 1-3 ingredients affected). <(Recipes)>
+- Rebalanced Gunpowder crafting. 750 Coal+Nitrate now crafts 500/750/1000 Gunpowder by Hand/Chemistry/Stack. <(Recipes)>
+- Rebalanced Gas and Oil crafting to be less abundant. <(Recipes)>
+- Repair Kits also require Oil and Mechanical Part to craft. <(Recipes)>
+- Contact grenades has the same recipe as regular grenades. <(Recipes)>
+- Added gunpowder to junk turret ammo (batch of 5). <(Recipes)>
+- You can craft stone arrows and bolts into feathers. <(Recipes)>
+- You can craft Snowberry Cocktails. <(Recipes/Items)>
+- Padded and Scrap armour uses Duct Tape for repairs. <(Items)>
+- Yucca smoothie keeps you cool in the heat. Sounds logical!
+- Chainsaw base entity damage doubled from 6 to 12. Did someone say Doomguy? <(Items)>
+- Balanced canned food prices and food value. <(Items)>
+- Balanced medical items prices. <(Items)>
+- Engine and Nailgun scrap for 15 mechanical parts. <(Items)>
+- Clothing scraps for less cloth and leather. <(Items)>
+- Reading books and schematics now give XP relative to their economic value. <(Items)>
+- Returned scrapping value of metal tools, weapons and armour back default value. <(Items)>
+- Increased scrap value for books. Also gives extra time to cancel accidental scrapping. <(Items)>
+- Baseball bat scraps to iron instead of wood. <(Items)>
+- You can no longer scrap drinks, canned food, medical items and high value items. <(Items)>
+- Increased value of High Performance Running Shoes. <(Items)>
+- Lowered zombie attack range by 10%. <(Items)>
+- Increased stack size of Radiators to 20. <(Items)>
+- Increased stack size of Dukes to 50,000. <(Items)>
+- Cooking recipes that require canned food now give a temporary attribute buff. <(Items/Buffs)>   *NEW*
+- Lowered Gamestage multiplier from 1.2 to 1.0 <(Gamestage)>
+- Removed the Stay Within requirement for trader quests.
+- Advancing to the next quest tier requires 2 more completed quests.   *NEW*
+
+
+
+
+
+Adjustments to make:
+
+
+
+Welcome to 7 Years To DIE Survivor (Desolate Interloper Exile Survivor) 
+
+It's the year 2041, 7 years since the zombie outbreak began. You used to belong to a thriving community of survivors,
+you fell in love with the person of your dreams and they also fell in love with you.
+But unfortunately, someone got jealous of your new found relationship. And so they set you up and you were found guilty to a serious crime,
+one which you never committed. And you've been sentenced to 365 days of exile and left for dead in a farout land, mostly desserted.
+Luckily for you though, your love interest managed to sneak in some supplies in your backpack before you were knocked out and dumped.
+Your love help you keep fighting to live another day, someday you hope to see them again and start a new life together once you've served your punishment.
+You secretly seek revenge on the person who framed you.
+
+
