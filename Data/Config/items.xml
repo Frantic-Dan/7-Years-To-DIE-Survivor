@@ -3094,7 +3094,7 @@ needed?
 
 <item name="meleeWpnKnucklesT3SteelKnuckles">
 	<property name="Extends" value="meleeWpnKnucklesT1IronKnuckles"/>
-	<property name="Material" value="MmeleeWpnKnucklesParts"/>
+	<property name="Material" value="MmeleeWpnKnucklesParts"/> <property name="Weight" value="6"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knuckles/knucklesSpikedRight_Prefab.prefab"/>
 	<property name="HoldType" value="79"/>
 	<property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
