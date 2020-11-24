@@ -6826,6 +6826,7 @@ needed?
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="3"/>
 	<property name="Stacknumber" value="1000"/>
 	<property name="EconomicValue" value="9"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -6847,6 +6848,8 @@ needed?
 	<property name="Extends" value="ammoJunkTurretRegular"/>
 	<property name="UnlockedBy" value="perkTechJunkie4Shells"/>
 	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Weight" value="4"/>
 	<property name="EconomicValue" value="9"/>
 	<effect_group name="ammoJunkTurretShell" tiered="false">
 		<passive_effect name="MaxRange" operation="base_set" value="10" tags="perkTurrets"/>
@@ -6872,6 +6875,7 @@ needed?
 	<property name="UnlockedBy" value="perkTechJunkie3APAmmo"/>
 	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
 	<property name="DisplayType" value="ammoJunkTurretAP"/>
+	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="9"/>
 	<effect_group name="ammoJunkTurretAP" tiered="false">
 		<passive_effect name="MaxRange" operation="base_set" value="17" tags="perkTurrets"/>
