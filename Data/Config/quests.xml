@@ -240,8 +240,8 @@
 			<property name="delay" value="3"/>
 		</action>
 		<objective type="Goto" id="trader" value="5" phase="1">
-			<property name="biome_filter_type" value="OnlyBiome" />
-			<property name="biome_filter" value="pine_forest" />
+			<!-- <property name="biome_filter_type" value="OnlyBiome" /> -->
+			<!-- <property name="biome_filter" value="pine_forest" /> -->
 			<!-- <property name="biome_filter_type" value="ExcludeBiome" /> -->
 			<!-- <property name="biome_filter" value="wasteland" /> -->
 			<property name="nav_object" value="go_to_trader" />
