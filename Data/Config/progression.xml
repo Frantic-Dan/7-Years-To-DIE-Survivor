@@ -789,9 +789,9 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
 				tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
-				tags="foodShamChowder,foodHoboStew,foodFishTacos,drinkYuccaJuiceSmoothie,foodChiliDog,drinkJarBeer"/>
+				tags="foodHoboStew,foodFishTacos,drinkYuccaJuiceSmoothie,foodChiliDog,drinkJarBeer"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
-				tags="foodGumboStew,foodShepardsPie,foodSpaghetti,foodTunaFishGravyToast"/>
+				tags="foodGumboStew,foodShamChowder,foodShepardsPie,foodSpaghetti,foodTunaFishGravyToast"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1"
 				tags="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir"/>
 
