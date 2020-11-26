@@ -12597,11 +12597,11 @@ perkNightStalkerSilentNight
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property name="EconomicValue" value="126"/>
 	<property name="UnlockedBy" value="perkMasterChef,foodShamChowderSchematic"/>
-	<effect_group tiered="false" name="Food Tier 3">
+	<effect_group tiered="false" name="Food Tier 4">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="53"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="95"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="80"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
 
 		<display_value name="dFortitude" value="1"/>
 		<display_value name="dDuration" value="600"/>
@@ -17717,7 +17717,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="MresourceScrapBrassSmall"/>
 	<property name="MeltTimePerUnit" value=".4"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="50000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="25000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
