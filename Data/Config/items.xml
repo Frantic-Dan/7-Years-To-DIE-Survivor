@@ -11336,7 +11336,7 @@ perkNightStalkerSilentNight
 	<property name="Group" value="Science,Medical"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="DescriptionKey" value="medicalFirstAidBandageDesc"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="UnlockedBy" value="perkPhysician,medicalFirstAidBandageSchematic"/>
 
 	<effect_group tiered="false">
@@ -16332,7 +16332,7 @@ perkNightStalkerSilentNight
 	<property name="Extends" value="blankNoteMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="DescriptionKey" value="noteDuke01Desc"/>
-	<property name="CustomIcon" value="challengeQuestMaster"/>
+	<property name="CustomIcon" value="questMaster"/>
 </item>
 
 <item name="questMaster">
@@ -17697,6 +17697,32 @@ perkNightStalkerSilentNight
 	</effect_group>
 </item>
 
+<item name="SpencerMansionBattery">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapLeadLarge"/>
+	<property name="NoScrapping" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<property name="Group" value="Resources"/>
+	<property name="DegradationBreaksAfter" value="true"/>
+	<property name="CustomIcon" value="batterybank"/> <property name="CustomIconTint" value="00aaff"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Candrop" value="false"/>
+	<property class="Attributes">
+		<property name="DegradationMax" value="400"/> <!-- needed for electrical calculations -->
+		<property name="BatteryMaxLoadInVolts" value="25"/>
+		<property name="BatteryDischargeTimeInMinutes" value="30"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400"/>
+	</effect_group>
+</item>
+
 <item name="resourceHeadlight">
 	<property name="HoldType" value="45"/>
 	<property name="Tags" value="junk"/>
@@ -17987,6 +18013,54 @@ perkNightStalkerSilentNight
 	<property name="EconomicValue" value="100"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="UnlockedBy" value="perkGreatHeistComplete,perkLockPicking"/>
+	<property name="PickupJournalEntry" value="lockPickingTip"/>
+</item>
+
+<item name="SwordKey">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="CustomIcon" value="resourceLockPick"/>	<property name="CustomIconTint" value="ffce07"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EconomicValue" value="0"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="Candrop" value="false"/>
+	<property name="PickupJournalEntry" value="lockPickingTip"/>
+</item>
+
+<item name="ArmourKey">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="CustomIcon" value="resourceLockPick"/>	<property name="CustomIconTint" value="00a5ff"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EconomicValue" value="0"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="Candrop" value="false"/>
+	<property name="PickupJournalEntry" value="lockPickingTip"/>
+</item>
+
+<item name="LaboratoryKey">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="CustomIcon" value="resourceLockPick"/>	<property name="CustomIconTint" value="fe1f14"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EconomicValue" value="0"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="Candrop" value="false"/>
 	<property name="PickupJournalEntry" value="lockPickingTip"/>
 </item>
 
