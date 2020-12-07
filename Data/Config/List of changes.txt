@@ -36,7 +36,7 @@ Desolation mod:
 - Spike traps are cheaper to craft, repair and upgrade. <(Blocks)>
 - Rebalanced resources from salvaging safes. <(Blocks)>
 - Sandbags now give 12 sand instead of 2. <(Blocks)>
-- Surface boulders give mining resources. <(Blocks)>   *NEW*
+- Surface boulders give mining resources. <(Blocks)>
 - 67% less ammo in loot. <(Loot)>
 - 60%-75% less quantity in loot. <(Loot)>
 - Quest reward ammo and explosives reduced by 40%. <(Loot)>
@@ -68,16 +68,33 @@ Desolation mod:
 - Lowered zombie attack range by 10%. <(Items)>
 - Increased stack size of Radiators to 20. <(Items)>
 - Increased stack size of Dukes to 50,000. <(Items)>
-- Cooking recipes that require canned food now give a temporary attribute buff. <(Items/Buffs)>   *NEW*
+- Cooking recipes that require canned food now give a temporary attribute buff. <(Items/Buffs)>
 - Lowered Gamestage multiplier from 1.2 to 1.0 <(Gamestage)>
 - Removed the Stay Within requirement for trader quests.
-- Advancing to the next quest tier requires 2 more completed quests.   *NEW*
+- Advancing to the next quest tier requires 2 more completed quests.
 
+Changes from v1.14 to v1.15:
+- Rebalanced a few recipes.
+- Surface boulders now give some mining resources.
+- Advancing to the next quest tier requires 12 completed quests instead of 10.
+- Cooking recipes that require canned food now give a temporary attribute buff.
+Gumbo Stew (Intellect), Shepard's Pie (Strength), Spaghetti (Agility), Tuna Fish Gravy Toast, (Perception).
 
+Changes from v1.15 to v1.15.1:
+- Lowered Duke stack to 25k, large stacks cause chunk reset.
+- Sham Chowder is now Tier 4 food, rebalanced recipe and food value.
 
+Changes from v1.15.1 to v1.16
+- Changed icon of Love Letter
+- Dishong (Skyscraper_01) is now a Tier 6 quest location
+- Added Spencer Mansion POI, a Tier 6 quest location, spawns only once. (must use nitrogen to spawn, or manually place yourself in world editor)
+- Tier 6 quest rewards Tier 3 items, Quality 4-6.
 
+You'll need to manually spawn the Spencer Mansion in your current game. Take note of where you HAVEN'T been in your world,
+then open your map in the world editor. Find a large flat area 120 W/E x 90 N/S. With the Digger dev tool, dig down 30 metres,
+press Z while pointing at the botton of the hole, press K to open a menu and select DynamicPrefabs, scroll down until you find
+Resident Evil Mansion. Select it, then press Load into Prefab. Make sure the area of the spawn looks satisfying for you. Then save.
 
-Adjustments to make:
 
 
 
