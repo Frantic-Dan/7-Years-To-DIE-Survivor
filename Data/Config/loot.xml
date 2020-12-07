@@ -3399,15 +3399,15 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="groupQuestAmmo">
 	<item name="ammo9mmBulletBall" count="120" loot_prob_template="QuestT1Prob"/>
-	<item name="ammo9mmBulletHP" count="60" loot_prob_template="QuestT2Prob"/>
-	<item name="ammo9mmBulletAP" count="60" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo9mmBulletHP" count="80" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo9mmBulletAP" count="80" loot_prob_template="QuestT2Prob"/>
 
 	<item name="ammo44MagnumBulletBall" count="90" loot_prob_template="QuestT1Prob"/>
 	<item name="ammo44MagnumBulletHP" count="60" loot_prob_template="QuestT2Prob"/>
 	<item name="ammo44MagnumBulletAP" count="60" loot_prob_template="QuestT2Prob"/>
 
 	<item name="ammoShotgunShell" count="72" loot_prob_template="QuestT1Prob"/>
-	<item name="ammoShotgunSlug" count="45" loot_prob_template="QuestT2Prob"/>
+	<item name="ammoShotgunSlug" count="48" loot_prob_template="QuestT2Prob"/>
 
 	<item name="ammo762mmBulletBall" count="72" loot_prob_template="QuestT1Prob"/>
 	<item name="ammo762mmBulletHP" count="54" loot_prob_template="QuestT2Prob"/>
@@ -3464,7 +3464,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="groupQuestMedical">
 	<item name="drugVitamins" count="2" prob="1.5"/>
-	<item name="medicalFirstAidBandage" count="3" prob="1.5"/>
+	<item name="medicalFirstAidBandage" count="4" prob="1.5"/>
 	<item name="medicalFirstAidKit" count="2" prob="1.5"/>
 	<item name="drugAntibiotics" count="1" prob="1.5"/>
 	<item name="drugHerbalAntibiotics" count="2" prob="1.5"/>
@@ -3512,8 +3512,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootgroup>
 
 <lootgroup name="groupBuriedWeaponChest">
-	<item group="schematicsModsAndGeneralCommon" prob=".8"/>
-	<item group="schematicsModsAndGeneralRare" prob=".2"/>
+	<item group="schematicsModsAndGeneralCommon"/>
+	<item group="schematicsModsAndGeneralRare" prob=".3"/>
 	<item group="groupModAllScaled" prob="1"/>
 	<item group="groupWeaponsAllScaled" prob="2"/>
 	<item group="groupArmorScaled" prob="1"/>
@@ -3578,7 +3578,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="groupBuriedLootStashTreasure" count="all">
 	<item group="treasureAmmo"/>
-	<item name="casinoCoin" count="2000,4000"/>
+	<item name="casinoCoin" count="3000,4000"/>
 	<item group="groupBuriedLootStashTreasureSub"/>
 </lootgroup>
 
@@ -3639,6 +3639,11 @@ groupQuestAmmo
 the loot group AND loot entry allow usage
 if the loot entry for mods is empty then it will use the lootgroup mods and mod_chance -->
 
+
+<!-- Locked Door -->
+<lootcontainer id="0" count="0" size="2,2" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+	<item name="cobweb" count="1,2"/>
+</lootcontainer>
 
 <!-- empty, storage containers the player crafts, cntSecureStorageChest-->
 <lootcontainer id="1" count="0" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
@@ -4489,7 +4494,7 @@ treasureTemplate
 </lootcontainer>
 
 <!-- fuel cntBarrelGasOld -->
-<lootcontainer id="120" count="0,1" size="6,3" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="120" count="1" size="6,3" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan" loot_quality_template="qualBaseTemplate">
 	<item name="ammoGasCan" count="20,80"/>
 </lootcontainer>
 
