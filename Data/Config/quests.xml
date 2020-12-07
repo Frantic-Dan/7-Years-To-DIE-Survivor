@@ -1706,11 +1706,14 @@
 		<reward type="Item" id="casinoCoin" value="7200"/>
 
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" isfixed="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" isfixed="true" value="6"/>
+		<!--<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>-->
 		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
-		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="6"/>
-		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
+		<!--<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="6"/>-->
+		<!--<reward type="LootItem" id="groupQuestMods" ischosen="true" value="6"/>-->
 	</quest>
 
 	<quest id="tier2_fetch_clear">
@@ -2011,11 +2014,14 @@
 		<reward type="Item" id="casinoCoin" value="8000"/>
 
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" isfixed="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" isfixed="true" value="6"/>
+		<!--<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>-->
 		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
-		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="6"/>
-		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
+		<!--<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="6"/>-->
+		<!--<reward type="LootItem" id="groupQuestMods" ischosen="true" value="6"/>-->
 	</quest>
 
 	<quest id="tier1_buried_supplies">
