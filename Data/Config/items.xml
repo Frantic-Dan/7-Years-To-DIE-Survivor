@@ -17920,7 +17920,7 @@ perkNightStalkerSilentNight
 	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="EconomicValue" value="5000"/>
-	<property name="SellableToTrader" value="True"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="ItemTypeIcon" value="forge"/>
 </item>
 
