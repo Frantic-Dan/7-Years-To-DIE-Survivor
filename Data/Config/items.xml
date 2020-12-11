@@ -17773,7 +17773,7 @@ perkNightStalkerSilentNight
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="4000"/>
 	<property name="Group" value="Resources"/>
-	<property name="SellableToTrader" value="false"/>
+	<property name="SellableToTrader" value="true"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Attributes">
 		<property name="DegradationMax" value="1000,6000"/>
