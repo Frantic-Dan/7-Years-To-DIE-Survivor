@@ -17771,7 +17771,7 @@ perkNightStalkerSilentNight
 	<property name="Material" value="Mglass"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Weight" value="0"/>
-	<property name="EconomicValue" value="4000"/>
+	<property name="EconomicValue" value="3500"/>
 	<property name="Group" value="Resources"/>
 	<property name="SellableToTrader" value="true"/>
 	<property name="ShowQuality" value="true"/>
