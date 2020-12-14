@@ -2812,15 +2812,16 @@
 
 
 		<!-- Tier 6 -->
-		<!--	<quest id="tier6_clear"/> -->
+		<quest id="tier6_clear"/>
 		<!--	<quest id="tier6_fetch"/> -->
-		<!--	<quest id="tier6_fetch_clear"/> -->
+		<quest id="tier6_fetch_clear"/>
 
 			<!-- Special Quests -->
 		<quest id="tier2_nexttrader" />
 		<quest id="tier3_nexttrader" />
 		<quest id="tier4_nexttrader" />
 		<quest id="tier5_nexttrader" />
+		<quest id="tier6_nexttrader" />
 	</quest_list>
 
 	<quest_items max_count="100">
