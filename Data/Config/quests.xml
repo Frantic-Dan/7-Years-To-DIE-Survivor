@@ -2577,6 +2577,45 @@
 		<reward type="Exp" value="500"/>
 	</quest>
 
+	<quest id="tier6_nexttrader">
+		<property name="group_name_key" value="quest_next_trader"/>
+		<property name="name_key" value="quest_next_trader"/>
+		<property name="subtitle_key" value="quest_next_trader_subtitle"/>
+		<property name="description_key" value="quest_next_trader_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+		<property name="repeatable" value="false"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="6"/>
+
+		<property name="unique_key" value="traderquest" />
+
+		<property name="offer_key" value="quest_next_trader_offer"/>
+		<property name="statement_key" value="quest_next_trader_statement"/>
+		<property name="response_key" value="quest_next_trader_response"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_next_trader_completion"/>
+
+		<property name="return_to_quest_giver" value="false" />
+
+		<property name="quest_type" value="special" />
+
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+			<property name="use_closest" value="true" />
+		</objective>
+
+		<reward type="Exp" value="500"/>
+	</quest>
+
 	<quest id="test_nexttrader">
 		<property name="group_name_key" value="quest_next_trader"/>
 		<property name="name_key" value="quest_next_trader"/>
