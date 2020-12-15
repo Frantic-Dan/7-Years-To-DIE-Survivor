@@ -2747,11 +2747,14 @@
 		<property name="completion_key" value="quest_tier_complete_completion"/>
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
-		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestMods" ischosen="true" isfixed="true" value="6"/>
-		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>
+		<!-- <reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="6"/> -->
+		<!-- <reward type="LootItem" id="groupQuestMods" ischosen="true" isfixed="true" value="6"/> -->
+		<!-- <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/> -->
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
 		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" value="6"/>
 		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" value="6"/>
 	</quest>
 
