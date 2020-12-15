@@ -16373,6 +16373,7 @@ perkNightStalkerSilentNight
 		<property name="Delay" value="0.5"/>
 		<property name="UseAnimation" value="false"/>
 		<property name="Use_time" value="..."/>
+		<property name="Create_item" value="Tier6Quest"/>
 	</property>
 	<property name="FuelValue" value="0"/>
 	<property name="Weight" value="0"/>
