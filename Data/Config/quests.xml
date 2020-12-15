@@ -2012,7 +2012,6 @@
 
 		<reward type="Exp" value="27000"/>
 		<reward type="Item" id="casinoCoin" value="8000"/>
-		<reward type="Item" id="Tier6Quest" value="1"/>
 
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
