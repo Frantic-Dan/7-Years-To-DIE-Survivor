@@ -3102,6 +3102,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
+<recipe name="Tier6Quest" count="1" craft_time="5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourcePaper" count="2"/>
+	<ingredient name="resourcePaint" count="1"/>
+</recipe>
+
 <recipe name="resourceRepairKit" count="1">
 	<ingredient name="resourceForgedIron" count="1"/>
 	<ingredient name="resourceDuctTape" count="1"/>
