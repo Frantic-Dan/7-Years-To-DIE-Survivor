@@ -14116,6 +14116,17 @@ perkNightStalkerSilentNight
 	<property name="PickupJournalEntry" value="paintingTip"/>
 </item> -->
 
+<item name="Tier6QuestSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="questMaster"/>
+	<property name="Unlocks" value="Tier6Quest"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Tier6Quest" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
 <item name="meleeWpnClubT1BaseballBatSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -16358,6 +16369,7 @@ perkNightStalkerSilentNight
 </item>
 
 <item name="Tier6Quest">
+	<property name="UnlockedBy" value="Tier6QuestSchematic"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="HoldType" value="21"/>
 	<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
