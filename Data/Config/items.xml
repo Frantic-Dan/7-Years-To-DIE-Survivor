@@ -16358,7 +16358,7 @@ perkNightStalkerSilentNight
 </item>
 
 <item name="Tier6Quest">
-	<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="HoldType" value="21"/>
 	<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
