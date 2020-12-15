@@ -50,7 +50,7 @@
 							At higher tiers, low level loot like iron tools will no longer be offered.
 -->
 
-<quests max_quest_tier="6" quests_per_tier="12">
+<quests max_quest_tier="5" quests_per_tier="12">
 	<!-- Basic Survival 1 - Craft a Bedroll -->
 	<quest id="quest_BasicSurvival1">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
@@ -2748,7 +2748,7 @@
 		<property name="completion_key" value="quest_tier_complete_completion"/>
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
-		<reward type="Item" id="Tier6Quest" value="10"/>
+		<reward type="Item" id="Tier6QuestSchematic" value="1"/>
 		<!-- <reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="6"/> -->
 		<!-- <reward type="LootItem" id="groupQuestMods" ischosen="true" isfixed="true" value="6"/> -->
 		<!-- <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/> -->
