@@ -2744,7 +2744,7 @@
 		<property name="category_key" value="reward"/>
 		<property name="difficulty" value="easy"/>
 		<property name="completiontype" value="TurnIn"/>
-		<property name="completion_key" value="quest_tier5_complete_completion"/>
+		<property name="completion_key" value="quest_tier_complete_completion"/>
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
 		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="6"/>
@@ -2767,12 +2767,15 @@
 		<property name="completion_key" value="quest_tier6_complete_completion"/>
 
 		<reward type="Item" id="casinoCoin" value="2000"/>
-		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="7"/>
-		<reward type="LootItem" id="groupQuestMods" ischosen="true" isfixed="true" value="7"/>
-		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="7"/>
+		<!-- <reward type="LootItem" id="groupQuestSchematics" ischosen="true" isfixed="true" value="7"/> -->
+		<!-- <reward type="LootItem" id="groupQuestMods" ischosen="true" isfixed="true" value="7"/> -->
+		<!-- <reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="7"/> -->
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="7"/>
 		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="7"/>
 		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="7"/>
-		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" value="7"/>
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="7"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" value="7"/>
+		<reward type="LootItem" id="groupQuestArmor" ischosen="true" value="7"/>
 	</quest>
 
 	<quest_list id="test_quests">
